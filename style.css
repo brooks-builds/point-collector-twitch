@@ -1,3 +1,23 @@
-p {
-    color: red;
+:root {
+    --points-color: red;
+}
+
+*, p {
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.title {
+    color: lightseagreen;
+}
+
+.points span {
+    color: var(--points-color);
 }
